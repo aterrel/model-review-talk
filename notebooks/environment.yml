@@ -1,0 +1,22 @@
+name: nb_rubric
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - bokeh
+  - jupyter
+  - jupyter_contrib_nbextensions
+  - jupyter_nbextensions_configurator
+  - matplotlib
+  - pandas
+  - pip
+  - s3fs
+  - seaborn
+  - scikit-learn
+  - statsmodels
+  - xgboost
+  - pip:
+    - fancyimpute
+    - pandas-profiling
